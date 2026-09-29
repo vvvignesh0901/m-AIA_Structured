@@ -12,6 +12,6 @@ heading_anchors: true
 # Replace USERNAME with your GitHub username
 aux_links:
   "View on GitHub":
-    - "https://github.com/USERNAME/mysolver-docs"
+    - "https://github.com/vvvignesh0901/mysolver-docs"
 
 footer_content: "MySolver documentation"
