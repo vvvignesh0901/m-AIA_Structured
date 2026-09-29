@@ -1,0 +1,17 @@
+title: MySolver Docs
+description: User and developer documentation for MySolver, a GPU-accelerated CFD solver.
+
+# Theme: sidebar navigation similar to the SU2 documentation
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+search_enabled: true
+heading_anchors: true
+
+# Replace USERNAME with your GitHub username
+aux_links:
+  "View on GitHub":
+    - "https://github.com/USERNAME/mysolver-docs"
+
+footer_content: "MySolver documentation"
