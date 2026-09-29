@@ -1,5 +1,5 @@
-title: MySolver Docs
-description: User and developer documentation for MySolver, a GPU-accelerated CFD solver.
+title: m-AIA Structured Docs
+description: User and developer documentation for m-AIA Structured, a GPU-accelerated CFD solver.
 
 # Theme: sidebar navigation similar to the SU2 documentation
 remote_theme: just-the-docs/just-the-docs
@@ -9,9 +9,9 @@ plugins:
 search_enabled: true
 heading_anchors: true
 
-# Replace USERNAME with your GitHub username
+# Link shown in the top bar of the site
 aux_links:
   "View on GitHub":
-    - "https://github.com/vvvignesh0901/mysolver-docs"
+    - "https://github.com/vvvignesh0901/m-AIA_Structured"
 
-footer_content: "MySolver documentation"
+footer_content: "m-AIA Structured documentation"

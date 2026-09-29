@@ -4,9 +4,9 @@ layout: home
 nav_order: 1
 ---
 
-# MySolver Documentation
+# m-AIA Structured Documentation
 
-MySolver is a C++ solver for computational fluid dynamics, parallelized with MPI and OpenMP and ported to GPUs with CUDA.
+m-AIA Structured is a C++ solver for computational fluid dynamics, parallelized with MPI and OpenMP and ported to GPUs with CUDA.
 
 This site documents how the solver works: how to build and run it, how the code is structured, and the physics and numerics behind it.
 
