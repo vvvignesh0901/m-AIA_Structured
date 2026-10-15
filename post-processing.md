@@ -1,11 +1,12 @@
 ---
 title: Post-processing
-nav_order: 5
+parent: Theory
+nav_order: 1
 ---
 
 # Post-processing
 
-Jupyter notebooks for analysing solver output, rendered as read-only pages.
+Jupyter notebooks that illustrate the theory, rendered as read-only pages. These scripts are not part of the solver.
 
 | Notebook | Description |
 |---|---|
