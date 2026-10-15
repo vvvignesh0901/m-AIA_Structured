@@ -10,4 +10,4 @@ Jupyter notebooks that illustrate the theory, rendered as read-only pages. These
 
 | Notebook | Description |
 |---|---|
-| [Taylor–Green vortex (test)](post-processing/test_taylor_green.html) | Analytic 2D Taylor–Green vortex: velocity field and kinetic energy decay. Test page for this section. |
+| [Wall surface coefficients](post-processing/wall_surface_coefficients.html) | Pressure and skin-friction coefficients on a NACA 0012 from XFOIL, and how integrating them gives lift and drag. |
