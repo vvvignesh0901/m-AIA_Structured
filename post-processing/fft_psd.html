@@ -7796,7 +7796,7 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2caba2e4">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7a6ef0ac">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7809,7 +7809,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8dd6200c">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5aba91ac">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7823,7 +7823,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=fc20cd34">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=497dd6f5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7876,7 +7876,7 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b6ea2fcc">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8a8c3a5a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7887,40 +7887,23 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5d3a1f2c">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b42df793">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="2.-Sampling">2. Sampling<a class="anchor-link" href="#2.-Sampling">¶</a></h2><p>A sampled signal consists of $N$ values taken at a fixed interval $\Delta t = 1/f_s$, where $f_s$ is the <strong>sampling frequency</strong>, over a record of length $T = N\,\Delta t$. Two numbers follow from this and limit every spectrum:</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Definition</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Nyquist frequency</td>
-<td>$f_\text{Ny} = f_s/2$</td>
-<td>the highest frequency that can be represented</td>
-</tr>
-<tr>
-<td>Frequency resolution</td>
-<td>$\Delta f = 1/T = f_s/N$</td>
-<td>the spacing between neighbouring frequencies in the spectrum</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><strong>Nyquist frequency</strong> $f_\text{Ny} = f_s/2$: the highest frequency that can be represented.</li>
+<li><strong>Frequency resolution</strong> $\Delta f = 1/T = f_s/N$: the spacing between neighbouring frequencies in the spectrum.</li>
+</ul>
 <p>The resolution depends only on the <strong>record length</strong>: sampling faster raises $f_\text{Ny}$, but only a longer record gives a finer $\Delta f$.</p>
 <p><strong>Aliasing.</strong> A frequency above $f_\text{Ny}$ is not lost but shows up at a wrong, lower frequency. In the example below, a 12 Hz sine sampled at 15 Hz ($f_\text{Ny} = 7.5$ Hz) is indistinguishable from a 3 Hz sine. Aliasing cannot be undone after sampling. In a simulation, $f_s$ is set by how often the data is written out, not by the solver time step.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell celltag_hide_input" id="cell-id=02380cf0">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell celltag_hide_input" id="cell-id=d6b3ec4a">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
@@ -7933,7 +7916,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f6359e55">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d87c6ae0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7965,7 +7948,7 @@ Frequency resolution  Δf   = 0.0167 Hz
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ce3431fa">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5300f0e8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7982,7 +7965,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=729c2a41">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a80d1d7e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8022,7 +8005,7 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fd9aeb40">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=11227bef">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8034,7 +8017,7 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6f57c6ca">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cdfb4b6b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8058,7 +8041,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cbfae9ab">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=67be019a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8117,7 +8100,7 @@ Welch: 11 segments,  Δf = 0.1 Hz
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f513dfa1">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5f523111">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8130,7 +8113,7 @@ Welch: 11 segments,  Δf = 0.1 Hz
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b8cb3140">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=aba1b58f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8144,7 +8127,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b0776470">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=87fc5235">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8183,7 +8166,7 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e8144210">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ee61b085">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8195,7 +8178,7 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fe0fa146">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e1e82ae0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
