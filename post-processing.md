@@ -6,7 +6,7 @@ nav_order: 1
 
 # Post-processing
 
-Jupyter notebooks that illustrate the theory, rendered as read-only pages. These scripts are not part of the solver.
+Jupyter notebooks that illustrate the theory, rendered as read-only pages. These scripts are not part of the solver. Script versions you can run yourself are on the [Downloads](downloads.html) page.
 
 | Notebook | Description |
 |---|---|
